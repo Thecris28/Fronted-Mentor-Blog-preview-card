@@ -9,14 +9,17 @@
     --Black: hsl(0, 0%, 7%);
 }
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     font-family: 'Figtree', sans-serif;
     background-color: #f5d04e;
 }
 
-.card{
+.menu{
     width: 330px;
     border: solid black 1px;
-    margin: 100px auto;
     border-radius: 12px;
     box-shadow: 10px 10px;
     background-color: var(--White);
